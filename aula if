@@ -3,3 +3,12 @@ if n1> 0:
     print("é positivo")
 elif n1< 0:
     print("é negativo")
+
+2 atividade 
+n1=float(input("me de um numero "))
+if n1 >=0 :
+    print("ele é positivo")
+    if n1 >5 :
+        print("ele é maior que 5")
+elif n1 < 0 :
+    print("ele é negativo ")
