@@ -19,3 +19,8 @@ calc=n1+n2
 print('A soma é ' ,calc)
 
 desafios 👇
+
+dsf002
+
+nome=input('qual seu nome ? ')
+print('boas vindas {}!'.format(nome
