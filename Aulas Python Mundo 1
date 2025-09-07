@@ -38,3 +38,12 @@ print('A doma entre {} e {} vale {}'.format(n1, n2, calc))
 
 exercício 2
 
+AA=input('digite qualquer coisa ')
+print(type(AA))
+print(AA.isalpha())
+print(AA.isupper())
+print(AA.islower())
+print(AA.isalnum())
+print(AA.isnumeric())
+print(AA.isspace())
+
