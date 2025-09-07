@@ -18,6 +18,14 @@ n2=int(input('segundo numero '))
 calc=n1+n2
 print('A soma é ' ,calc)
 
+exercício extra do exércicio 3 da aula 4
+
+n1=int(input('primeiro numero '))
+n2=int(input('segundo numero '))
+calc=n1+n2
+# print('A soma entre',n1,'e',n2,'vale',calc)
+print('A doma entre {} e {} vale {}'.format(n1, n2, calc))
+
 desafios 👇
 
 dsf002
