@@ -1,4 +1,4 @@
-desafios aula 4
+desafios aula 04
 exercício 1
 
 nome=input('Qual seu nome ? ')
@@ -18,13 +18,6 @@ n2=int(input('segundo numero '))
 calc=n1+n2
 print('A soma é ' ,calc)
 
-exercício extra do exércicio 3 da aula 4
-
-n1=int(input('primeiro numero '))
-n2=int(input('segundo numero '))
-calc=n1+n2
-# print('A soma entre',n1,'e',n2,'vale',calc)
-print('A doma entre {} e {} vale {}'.format(n1, n2, calc))
 
 desafios 👇
 
@@ -32,3 +25,16 @@ dsf002
 
 nome=input('qual seu nome ? ')
 print('boas vindas {}!'.format(nome
+
+exercício aula 06
+
+exercício 1
+
+n1=int(input('primeiro numero '))
+n2=int(input('segundo numero '))
+calc=n1+n2
+# print('A soma entre',n1,'e',n2,'vale',calc)
+print('A doma entre {} e {} vale {}'.format(n1, n2, calc))
+
+exercício 2
+
