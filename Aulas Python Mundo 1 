@@ -1,16 +1,17 @@
-desafios aula 4-- desafio 1
+desafios aula 4
+exercício 1
 
 nome=input('Qual seu nome ? ')
 print('ola',nome,'seja bem vindo')
 
-desafio 2
+exercício 2
 
 Dia=input('qual seu dia de nasc ? ')
 Mes=input('qual seu mes de nasc ? ')
 Ano=input('qual seu ano de nasc ? ')
 print('Você nasceu dia',Dia,'de',Mes,'de',Ano,'correto ?')
 
-desafio 3
+exercício 3
 
 n1=int(input('primeiro numero '))
 n2=int(input('segundo numero '))
