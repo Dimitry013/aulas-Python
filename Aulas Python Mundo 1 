@@ -1,3 +1,11 @@
 desafios aula 4-- desafio 1
+
 nome=input('Qual seu nome ? ')
 print('ola',nome,'seja bem vindo')
+
+desafio 2
+
+Dia=input('qual seu dia de nasc ? ')
+Mes=input('qual seu mes de nasc ? ')
+Ano=input('qual seu ano de nasc ? ')
+print('Você nasceu dia',Dia,'de',Mes,'de',Ano,'correto ?')
