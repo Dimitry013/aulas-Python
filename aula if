@@ -12,3 +12,19 @@ if n1 >=0 :
         print("ele é maior que 5")
 elif n1 < 0 :
     print("ele é negativo ")
+
+atividade dia 09/09
+
+l1=float(input('Digite o lado A : '))
+l2=float(input('Digite o lado B : '))
+l3=float(input('Digite o lado C : '))
+calc=l1+l2>l3
+print(calc)
+if(l1==l2==l3):
+   print("triangulo equilatero")
+elif(l1==l2 or l2==l3):
+    print('triangulo isosceles')
+elif(l3==l1 or l1==l2):
+    print('triangulo isosceles')
+elif(l1!=l2!=l3):
+    print('triangulo escaleno')
