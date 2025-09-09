@@ -24,7 +24,7 @@ desafios 👇
 dsf002
 
 nome=input('qual seu nome ? ')
-print('boas vindas {}!'.format(nome
+print('boas vindas {}!'.format(nome))
 
 exercício aula 06
 
