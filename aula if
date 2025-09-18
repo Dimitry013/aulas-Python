@@ -28,3 +28,13 @@ elif(l3==l1 or l1==l2):
     print('triangulo isosceles')
 elif(l1!=l2!=l3):
     print('triangulo escaleno')
+
+idd=int(input('qual sua idade ? '))
+if idd>=0 and idd<=12:
+    print('você é uma criança pq tem: {} anos '.format(idd))
+elif idd>=13 and idd<=17:
+    print('voce é um adolescente pq tem: {} anos'.format(idd))
+elif idd>=18 and idd<=59:
+    print('você é adulto pq tem: {} anos'.format(idd))
+elif idd>=60 and idd<=100:
+    print('você e  idoso pq tem: {} anos'.format(idd))
