@@ -38,3 +38,15 @@ elif idd>=18 and idd<=59:
     print('você é adulto pq tem: {} anos'.format(idd))
 elif idd>=60 and idd<=100:
     print('você e  idoso pq tem: {} anos'.format(idd))
+
+n1=int(input('me de um numero: '))
+n2=int(input('me de outro numero: '))
+n3=int(input('me de mais um numero: '))
+if n1> n2:
+    print('esse é o maior numero entre os 3: {}'.format(n1))
+    if n2> n1:
+        print('esse é o maior numero entre os 3: {}'.format(n2))
+        if n2> n3:
+            print('esse é o maior numero entre os 3: {}'.format(n2))
+            if n3> n2:
+                print('esse é o maior numero entre os 3: {}'.format(n3))
