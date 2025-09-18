@@ -42,11 +42,11 @@ elif idd>=60 and idd<=100:
 n1=int(input('me de um numero: '))
 n2=int(input('me de outro numero: '))
 n3=int(input('me de mais um numero: '))
-if n1> n2:
+if n1> n2 and n1> n3:
     print('esse é o maior numero entre os 3: {}'.format(n1))
-    if n2> n1:
-        print('esse é o maior numero entre os 3: {}'.format(n2))
-        if n2> n3:
-            print('esse é o maior numero entre os 3: {}'.format(n2))
-            if n3> n2:
-                print('esse é o maior numero entre os 3: {}'.format(n3))
+elif n2> n1 and n2> n3:
+     print('esse é o maior numero entre os 3: {}'.format(n2))
+elif n3> n2 and n3> n1:
+     print('esse é o maior numero entre os 3: {}'.format(n3))
+else:
+    print('numero invalido')
