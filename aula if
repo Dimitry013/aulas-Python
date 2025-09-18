@@ -50,3 +50,19 @@ elif n3> n2 and n3> n1:
      print('esse é o maior numero entre os 3: {}'.format(n3))
 else:
     print('numero invalido')
+
+n1=float(input('Me dê um numero: '))
+n2=float(input('Me dê outro numero: '))
+op=str(input('digite sua operaçao (+,-,*,/): '))
+if n1==0 and n2==0 and op=='/':
+    print('SEU BURRO NAO DA CERTO')
+elif op=='+':
+    print('aqui esta o seu calculo',n1+n2)
+elif op=='-':
+    print('aqui esta o seu calculo',n1-n2)
+elif op=='*':
+    print('aqui esta o seu calculo',n1*n2)
+elif op=='/':
+    print('aqui esta o seu calculo',n1/n2)
+else:
+    print('numero invalido, culpa sua')
