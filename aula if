@@ -66,3 +66,19 @@ elif op=='/':
     print('aqui esta o seu calculo',n1/n2)
 else:
     print('numero invalido, culpa sua')
+
+salario=int(input('qual seu Salario ? '))
+if salario < 300 and salario>=0:
+    print('o seu salario aumentou em: ', salario *1.50)
+elif salario >=300 and salario<=500:
+    print('o seu salario aumentou em: ', salario *1.40)
+elif salario >=500 and salario<=700:
+    print('o seu salario aumentou em: ', salario *1.30)
+elif salario >=700 and salario<=800:
+    print('o seu salario aumentou em: ', salario *1.20)
+elif salario >=800 and salario<=1000:
+    print('o seu salario aumentou em: ', salario *1.10)
+elif salario>1000:
+    print('o seu salario aumentou em: ', salario *1.05)
+else :
+    print('erro')
