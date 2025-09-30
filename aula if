@@ -82,3 +82,20 @@ elif salario>1000:
     print('o seu salario aumentou em: ', salario *1.05)
 else :
     print('erro')
+
+hx=int(input('quantas horas extras vc trabaio ? '))
+hf=int(input('quantas horas voce faltou ? '))
+H= hx-(2/3)*hf
+print(H)
+if H > 2.400:
+    print('voce recebeu uma gratificaçao de R$500.00')
+elif H ==1.800 and H <=2.400:
+    print('voce recebeu uma gratificaçao de R$400.00')
+elif H >=1.200 and H <=1.800:
+    print('voce recebeu uma gratificaçao de R$300.00')
+elif H == 600 and H <=1.200:
+    print('voce recebeu uma gratificaçao de R$200.00')
+elif H <600:
+    print('voce recebeu uma gratificaçao de R$100.00')
+else :
+    print('erro')
