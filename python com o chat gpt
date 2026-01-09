@@ -1,0 +1,9 @@
+#primeira atividade do dia 4 #
+nome=str(input('qual seu nome ? '))
+a=int(input('me de um numero: '))
+b=int(input('me de outro numero: '))
+soma=a+b
+print('{}, a soma entre {} ,e, {}, é {}'.format(nome,a,b,soma))
+#segunda atividade do dia 4 #
+idade=int(input('qual sua idade ? '))
+print(f'daqui a 10 anos voce tera {idade+10} anos')
