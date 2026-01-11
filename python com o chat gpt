@@ -7,3 +7,17 @@ print('{}, a soma entre {} ,e, {}, é {}'.format(nome,a,b,soma))
 #segunda atividade do dia 4 #
 idade=int(input('qual sua idade ? '))
 print(f'daqui a 10 anos voce tera {idade+10} anos')
+
+#🧠 ATIVIDADES — DIA 5 atividade 1#
+nome=str(input('qual seu nome ? :'))
+idd= int(input('qual a sua idade ??: '))
+if idd < 18:
+    print(f'voce é de menor pois sua idade é {idd}')
+else:
+    print(f'voce é de maior pq sua idade é {idd}')
+#atividade 2 #
+num=int(input(' me dê um numero: '))
+if num % 2 == 0:
+    print('seu numero é par ')
+else:
+    print('seu numero é ímpar')
