@@ -36,3 +36,17 @@ while numero != 0:
     else :
         print(f'{numero} é impar')
     numero=int(input('me de um numero: '))
+
+soma = 0
+contador = 0
+num=int(input('me de 1 numero (aperte 0 para sair): '))
+while num != 0:
+    soma += num
+    contador += 1
+    if num % 2 == 0:
+        print(f'{num} é par')
+    else :
+        print(f'{num} é ímpar')
+    num=int(input('me de 1 numero (aperte 0 para sair): '))
+
+print(f'a soma de todos os numeros sao {soma}, voce me pediu {contador} numeros')
