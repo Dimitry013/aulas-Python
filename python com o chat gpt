@@ -50,3 +50,20 @@ while num != 0:
     num=int(input('me de 1 numero (aperte 0 para sair): '))
 
 print(f'a soma de todos os numeros sao {soma}, voce me pediu {contador} numeros')
+
+lista :
+
+lista = [1,2,3,4,5]
+soma = 0
+contador = 0
+for x in lista:
+    soma += x
+    contador += 1
+    if x % 2 == 0:
+        print(f'{x} é par')
+    else :
+        print(f'{x} é ímpar')
+
+print(f'na lista tem {contador} números, a soma total é {soma}')
+
+
